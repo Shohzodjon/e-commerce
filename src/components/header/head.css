@@ -1,0 +1,111 @@
+.head {
+  background: #0f3460;
+  padding: 10px 0;
+  color: #fff;
+}
+.head i {
+  margin-right: 30px;
+}
+.head label {
+  margin-right: 30px;
+  font-size: 1.3rem;
+}
+/* =============================== head================================ */
+.nav-link-MobileMenu {
+  background: red;
+}
+
+/* ============================== Search =========================================== */
+.search {
+  padding: 20px 0;
+}
+.search .logo img {
+  width: auto;
+  height: auto;
+}
+.search .width {
+  width: 20%;
+}
+.search-box {
+  width: 80%;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.search-box i {
+  font-size: 1.7rem;
+  opacity: 0.5;
+  text-align: center;
+  padding: 15px 20px;
+}
+.search-box input {
+  width: 100%;
+  padding: 10px;
+}
+::placeholder {
+  font-size: 1.5rem;
+}
+.search-box span {
+  width: 20%;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+.cart {
+  position: relative;
+}
+.search .cart span {
+  position: absolute;
+  top: -10px;
+  right: -15px;
+  width: 20px;
+  border-radius: 50%;
+  padding: 1.8px 0;
+  text-align: center;
+  background: #e94560;
+  font-size: 1.2rem;
+  color: #fff;
+}
+.search .f_flex {
+  justify-content: flex-end;
+}
+
+/* ====================================== SEARCH ======================= */
+
+.categrories {
+  background: #f6f9fc;
+  padding: 20px 0;
+  height: 6vh;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+.categrories span {
+  margin-right: 20px;
+  font-size: 3rem;
+  margin-top: 10px;
+}
+.categrories h4 {
+  font-weight: 500;
+  margin-top: 14px;
+}
+.categrories h4 i {
+  margin-left: 10px;
+}
+.header {
+  height: 8vh;
+  box-shadow: -1px 15px 17px -8px rgba(0, 0, 0, 0.1);
+}
+.header ul {
+  line-height: 8vh;
+}
+.header ul li {
+  margin-left: 30px;
+}
+.header ul li a {
+  transition: 0.5s;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.header ul li a:hover {
+  color: #e94560;
+}
+.open {
+  display: none;
+}
