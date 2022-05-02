@@ -13,9 +13,9 @@ function Head() {
         <div className="right row RText">
           <label>Theme FAQ's</label>
           <label>Need Helps</label>
-          <span>Eng</span>
+
           <label htmlFor="">ENG</label>
-          <span>uz</span>
+
           <label htmlFor="">UZB</label>
         </div>
       </div>

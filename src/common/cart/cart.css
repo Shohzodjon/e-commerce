@@ -9,7 +9,7 @@
 }
 .cart-items .cart-total {
   width: 30%;
-  border: 1px solid red;
+
   margin: 0;
   margin-left: 30px;
   height: 60px;
@@ -74,6 +74,9 @@
 .cart-total h3 {
   font-weight: 500;
   font-size: 1.8rem;
+}
+.cart-totalh2 {
+  margin-bottom: 1rem;
 }
 .no-items {
   font-size: 1.8rem;

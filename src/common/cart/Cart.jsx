@@ -9,7 +9,7 @@ function Cart({ cartItem, addToCart, decreaseQty }) {
   return (
     <section className="cart-items">
       <div className="container d_flex">
-        <div className="cart-details">
+        <div className="cart-yarn start">
           {cartItem.length === 0 && (
             <h1 className="no-items product">No items add to Cart</h1>
           )}
@@ -29,12 +29,6 @@ function Cart({ cartItem, addToCart, decreaseQty }) {
                   </h4>
                 </div>
                 <div className="cart-items-function">
-                  <div className="removeCart">
-                    <button>
-                      <i className="fa -solid fa-xmark"></i>
-                    </button>
-                  </div>
-
                   <div className="cartControl d_flex">
                     <button className="incCart" onClick={() => addToCart(item)}>
                       <i className="fa fa-plus"></i>

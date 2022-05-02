@@ -3,11 +3,14 @@ import "./app.css";
 import Header from "./components/header/Header";
 import Pages from "./pages/Pages";
 import Data from "./flashDeals/Data";
+import Sdata from "./shop/Sdata";
 import { useState } from "react";
 import Cart from "./common/cart/Cart";
+import Footer from "./footer/Footer";
 
 function App() {
   const { productItems } = Data;
+  const { shopItems } = Sdata;
   const [cartItem, setCartItem] = useState([]);
 
   const addToCart = (product) => {
@@ -47,7 +50,13 @@ function App() {
       <Routes>
         <Route
           path="/"
-          element={<Pages productItems={productItems} addToCart={addToCart} />}
+          element={
+            <Pages
+              productItems={productItems}
+              addToCart={addToCart}
+              shopItems={shopItems}
+            />
+          }
         />
         <Route
           path="/cart"
@@ -60,6 +69,7 @@ function App() {
           }
         />
       </Routes>
+      <Footer />
     </div>
   );
 }

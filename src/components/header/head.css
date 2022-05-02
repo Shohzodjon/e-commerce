@@ -39,6 +39,8 @@
 .search-box input {
   width: 100%;
   padding: 10px;
+  border: none;
+  outline: none;
 }
 ::placeholder {
   font-size: 1.5rem;
@@ -47,6 +49,7 @@
   width: 20%;
   border-left: 1px solid rgba(0, 0, 0, 0.1);
   padding: 10px;
+  font-size: 1.3rem;
 }
 .cart {
   position: relative;
@@ -71,10 +74,9 @@
 
 .categrories {
   background: #f6f9fc;
-  padding: 20px 0;
-  height: 6vh;
+  padding: 5px 10px;
   border-radius: 5px;
-  margin-top: 5px;
+  margin-top: 0;
 }
 .categrories span {
   margin-right: 20px;
@@ -83,6 +85,7 @@
 }
 .categrories h4 {
   font-weight: 500;
+  font-size: 1.7rem;
   margin-top: 14px;
 }
 .categrories h4 i {

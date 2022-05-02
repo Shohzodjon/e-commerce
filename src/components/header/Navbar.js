@@ -11,13 +11,9 @@ function Navbar() {
     <header className="header">
       <div className="container d_flex">
         <div className="categrories d_flex">
-          <span className="fa-solid fa-border-all"></span>
-          <h4>
-            Categrories <i className="fa fa-chevron-down"></i>
-          </h4>
+          <h4>Categrories</h4>
         </div>
 
-        {/* */}
         <div className="navlink">
           <ul
             className={
@@ -28,9 +24,9 @@ function Navbar() {
             <li>
               <Link to="/">Home</Link>
             </li>
-            <li>
+            {/* <li>
               <Link to="/pages">Pages</Link>
-            </li>
+            </li> */}
             <li>
               <Link to="/user">user account</Link>
             </li>

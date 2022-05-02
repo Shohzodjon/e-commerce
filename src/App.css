@@ -59,7 +59,7 @@ li {
   box-shadow: rgb(43 52 69/10%) 0 4px 16px;
   height: 510px;
   padding: 15px 0;
-  border: 1px solid red;
+
   border-radius: 5px;
   margin-top: 5px;
 }
@@ -86,7 +86,7 @@ li {
   background: #e94560;
   color: #fff;
   border-radius: 5px;
-  padding: 10px 30px;
+  padding: 8px 25px;
   border: none;
   outline: none;
   font-weight: bold;
@@ -110,7 +110,7 @@ li {
   padding: 20px;
   box-shadow: rgb(3 0 71/9%) 0 1px 3px;
   position: relative;
-  margin: 10px;
+  margin: 20px;
 }
 .product h3 {
   font-weight: 400;
@@ -191,3 +191,25 @@ li {
   left: -20px;
 }
 /* ===============================================Product =================================================== */
+
+.heading .heading-left i {
+  font-size: 3rem;
+}
+.heading .heading-left h2 {
+  font-size: 2.5rem;
+}
+.heading .heading-right,
+.heading .heading-right i {
+  text-align: center;
+  color: grey;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 30px;
+}
+.grid2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
