@@ -13,10 +13,6 @@ function Head() {
         <div className="right row RText">
           <label>Theme FAQ's</label>
           <label>Need Helps</label>
-
-          <label htmlFor="">ENG</label>
-
-          <label htmlFor="">UZB</label>
         </div>
       </div>
     </section>
