@@ -1,12 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "../../assets/images/logo.svg";
+
 function Search({ cartItem }) {
   return (
     <section className="search">
       <div className="container c_flex">
         <div className="logo width">
-          <img src={logo} alt="logo" />
+          <img
+            src="https://www.pngkey.com/png/detail/382-3823846_aliexpress-products-review-ali-express-logo-png.png"
+            alt="logo"
+          />
         </div>
         <div className="search-box f_flex">
           <i className="fa fa-search"></i>

@@ -6,7 +6,7 @@ function Footer() {
       <footer>
         <div className="container grid2">
           <div className="box">
-            <h1>Bonik</h1>
+            <h1>AliExpress</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
               nihil labore reprehenderit ipsam odit excepturi cum. Iste omnis,

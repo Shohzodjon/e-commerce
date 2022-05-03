@@ -11,17 +11,24 @@
   font-size: 1.3rem;
 }
 /* =============================== head================================ */
-.nav-link-MobileMenu {
-  background: red;
-}
 
 /* ============================== Search =========================================== */
 .search {
   padding: 20px 0;
 }
+.search .logo {
+  width: 150px;
+  margin-right: 2rem;
+  height: 70px;
+  border-radius: 1rem;
+  overflow: hidden;
+  border: 1px solid rgba(153, 153, 153, 0.226);
+}
 .search .logo img {
-  width: auto;
-  height: auto;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 1rem;
 }
 .search .width {
   width: 20%;
