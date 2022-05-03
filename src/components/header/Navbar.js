@@ -24,9 +24,7 @@ function Navbar() {
             <li>
               <Link to="/">Home</Link>
             </li>
-            {/* <li>
-              <Link to="/pages">Pages</Link>
-            </li> */}
+
             <li>
               <Link to="/user">user account</Link>
             </li>

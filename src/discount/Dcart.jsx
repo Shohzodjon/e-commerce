@@ -15,17 +15,19 @@ function Dcart() {
       <Slider {...settings}>
         {Ddata.map((item) => {
           return (
-            <>
-              <div className="product" key={item.id}>
-                <div className="box">
-                  <div className="img discount_img">
-                    <img src={item.cover} alt="img" />
+            <div key={item.id}>
+              <>
+                <div className="product">
+                  <div className="box">
+                    <div className="img discount_img">
+                      <img src={item.cover} alt="img" />
+                    </div>
+                    <h4>{item.name}</h4>
+                    <span>{item.price}</span>
                   </div>
-                  <h4>{item.name}</h4>
-                  <span>{item.price}</span>
                 </div>
-              </div>
-            </>
+              </>
+            </div>
           );
         })}
       </Slider>
