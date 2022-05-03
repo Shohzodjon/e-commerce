@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-import "./app.css";
 import Header from "./components/header/Header";
 import Pages from "./pages/Pages";
 import Data from "./flashDeals/Data";
@@ -7,6 +6,7 @@ import Sdata from "./shop/Sdata";
 import { useState } from "react";
 import Cart from "./common/cart/Cart";
 import Footer from "./footer/Footer";
+import "./App.css";
 
 function App() {
   const { productItems } = Data;

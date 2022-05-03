@@ -8,7 +8,10 @@ function NewArrivals() {
         <div className="container">
           <div className="heading d_flex">
             <div className="heading-left f_flex row">
-              <img src="https://img.icons8.com/glyph-neue/64/26e07f/new.png" />
+              <img
+                src="https://img.icons8.com/glyph-neue/64/26e07f/new.png"
+                alt="new arrivals "
+              />
               <h2>New Arrivals</h2>
             </div>
             <div className="heading-right row">
