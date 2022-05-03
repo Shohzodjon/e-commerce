@@ -3,25 +3,25 @@ import "./wrapper.css";
 function Wrapper() {
   const data = [
     {
-      id: 1,
+      id: 46,
       cover: <i class="fa-solid fa-truck-fast"></i>,
       title: "Worldwide Delivery",
       decs: "We offer competitive prices on our 100 million plus product any range.",
     },
     {
-      id: 2,
+      id: 47,
       cover: <i class="fa-solid fa-id-card"></i>,
       title: "Safe Payment",
       decs: "We offer competitive prices on our 100 million plus product any range.",
     },
     {
-      id: 3,
+      id: 48,
       cover: <i class="fa-solid fa-shield"></i>,
       title: "Shop With Confidence ",
       decs: "We offer competitive prices on our 100 million plus product any range.",
     },
     {
-      id: 4,
+      id: 49,
       cover: <i class="fa-solid fa-headset"></i>,
       title: "24/7 Support ",
       decs: "We offer competitive prices on our 100 million plus product any range.",

@@ -24,6 +24,7 @@
 }
 .f_flex {
   display: flex;
+  align-items: center;
 }
 a {
   text-decoration: none;
@@ -153,6 +154,17 @@ li {
   opacity: 1;
   cursor: pointer;
 }
+.product .product_img {
+  width: 100%;
+  height: 280px;
+  margin: 1rem 0;
+}
+.product .product_img img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
 .product-like label {
   background: #0f3460;
   padding: 2px 8px;
@@ -168,6 +180,15 @@ li {
 .product .discount {
   font-size: 1.5rem;
   color: #0f3460;
+}
+.discount_img {
+  width: 100%;
+  height: 250px;
+}
+.discount_img img {
+  width: 90%;
+  height: 90%;
+  object-fit: contain;
 }
 
 .control-btn .next,
@@ -192,16 +213,26 @@ li {
 }
 /* ===============================================Product =================================================== */
 
-.heading .heading-left i {
+.heading .heading-left i,
+.spark {
   font-size: 3rem;
 }
 .heading .heading-left h2 {
+  font-size: 2.5rem;
+  margin-left: 0.5rem;
+}
+.heading h2 {
   font-size: 2.5rem;
 }
 .heading .heading-right,
 .heading .heading-right i {
   text-align: center;
   color: grey;
+}
+.heading-right span {
+  color: #e94560;
+  font-size: 1.4rem;
+  font-weight: 500;
 }
 .grid {
   display: grid;
@@ -212,4 +243,13 @@ li {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
+}
+.shop_img {
+  width: 100%;
+  height: 220px;
+}
+.shop_img img {
+  width: 80%;
+  display: block;
+  margin-top: 1rem;
 }

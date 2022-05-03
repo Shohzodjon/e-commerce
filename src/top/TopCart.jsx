@@ -15,14 +15,11 @@ function TopCart() {
   return (
     <>
       <Slider {...settings}>
-        {Tdata.map((item, index) => {
+        {Tdata.map((item) => {
           return (
             <>
-              <div className="box product" key={index}>
-                <div className="nametop d_flex">
-                  <span className="tleft">{item.para}</span>
-                  <span className="tright">{item.desc}</span>
-                </div>
+              {console.log("id", item.id)}
+              <div className="box product" key={item.id}>
                 <div className="img">
                   <img src={item.cover} alt="img" />
                 </div>

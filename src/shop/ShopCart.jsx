@@ -7,7 +7,7 @@ function ShopCart({ shopItems, addToCart }) {
         return (
           <div className="box" key={item.id}>
             <div className="product mtop">
-              <div className="img">
+              <div className="img shop_img">
                 <span className="discount">{item.discount}% Off</span>
                 <img src={item.cover} alt="img" />
               </div>

@@ -9,50 +9,14 @@ import discount8 from "../assets/images/discount/discount-8.png";
 import discount9 from "../assets/images/discount/discount-9.png";
 
 const Ddata = [
-  {
-    cover: discount1,
-    name: "BenuX 2022",
-    price: "$250",
-  },
-  {
-    cover: discount2,
-    name: "Sony TV 1080p",
-    price: "$450",
-  },
-  {
-    cover: discount3,
-    name: "Sony PS4",
-    price: "$50",
-  },
-  {
-    cover: discount4,
-    name: "Setgearr 2022",
-    price: "$100",
-  },
-  {
-    cover: discount5,
-    name: "Tony BGB",
-    price: "$20",
-  },
-  {
-    cover: discount6,
-    name: "RG products",
-    price: "$200",
-  },
-  {
-    cover: discount7,
-    name: "Ranasonic 2022",
-    price: "$300",
-  },
-  {
-    cover: discount8,
-    name: "Pune HD",
-    price: "$30",
-  },
-  {
-    cover: discount9,
-    name: "Sony CCTV",
-    price: "$80",
-  },
+  { id: 5, cover: discount1, name: "BenuX 2022", price: "$250" },
+  { id: 6, cover: discount2, name: "Sony TV 1080p", price: "$450" },
+  { id: 7, cover: discount3, name: "Sony PS4", price: "$50" },
+  { id: 8, cover: discount4, name: "Setgearr 2022", price: "$100" },
+  { id: 9, cover: discount5, name: "Sony BGB", price: "$200" },
+  { id: 10, cover: discount6, name: "Apple products", price: "$800" },
+  { id: 11, cover: discount7, name: "HP 2022", price: "$780" },
+  { id: 12, cover: discount8, name: "RedMI HD", price: "$350" },
+  { id: 13, cover: discount9, name: "Sony CCTV", price: "$80" },
 ];
 export default Ddata;

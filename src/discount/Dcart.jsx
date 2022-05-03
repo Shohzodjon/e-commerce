@@ -13,12 +13,12 @@ function Dcart() {
   return (
     <>
       <Slider {...settings}>
-        {Ddata.map((item, index) => {
+        {Ddata.map((item) => {
           return (
             <>
-              <div className="product" key={index}>
+              <div className="product" key={item.id}>
                 <div className="box">
-                  <div className="img">
+                  <div className="img discount_img">
                     <img src={item.cover} alt="img" />
                   </div>
                   <h4>{item.name}</h4>

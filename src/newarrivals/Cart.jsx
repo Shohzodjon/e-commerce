@@ -5,9 +5,9 @@ function Cart() {
   return (
     <>
       <div className="content grid product">
-        {Ndata.map((item, index) => {
+        {Ndata.map((item) => {
           return (
-            <div className="box" key={index}>
+            <div className="box" key={item.id}>
               <div className="img">
                 <img src={item.cover} alt="img" />
               </div>

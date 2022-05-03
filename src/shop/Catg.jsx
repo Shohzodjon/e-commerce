@@ -4,12 +4,12 @@ import cat2 from "../assets/images/category/cat-2.png";
 import cat3 from "../assets/images/category/cat-3.png";
 function Catg() {
   const data = [
-    { id: 1, cateImg: cat1, cateName: "Apple" },
-    { id: 2, cateImg: cat2, cateName: "Samasung" },
-    { id: 3, cateImg: cat3, cateName: "Oppo" },
-    { id: 4, cateImg: cat2, cateName: "Vivo" },
-    { id: 5, cateImg: cat1, cateName: "Redimi" },
-    { id: 6, cateImg: cat2, cateName: "Sony" },
+    { id: 35, cateImg: cat1, cateName: "Apple" },
+    { id: 36, cateImg: cat2, cateName: "Samasung" },
+    { id: 37, cateImg: cat3, cateName: "Oppo" },
+    { id: 38, cateImg: cat2, cateName: "Vivo" },
+    { id: 39, cateImg: cat1, cateName: "Redimi" },
+    { id: 40, cateImg: cat2, cateName: "Sony" },
   ];
 
   return (

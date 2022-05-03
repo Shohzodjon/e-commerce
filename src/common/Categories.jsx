@@ -26,8 +26,8 @@ const data = [
     cateName: "Cars",
   },
   {
-    cateImg: img4,
-    cateName: "Home & Garden",
+    cateImg: img11,
+    cateName: "Books",
   },
   {
     cateImg: img5,
@@ -54,8 +54,8 @@ const data = [
     cateName: "Groceries",
   },
   {
-    cateImg: img11,
-    cateName: "Books",
+    cateImg: img4,
+    cateName: "Home & Garden",
   },
 ];
 function Categories() {

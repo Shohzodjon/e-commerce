@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import Slider from "react-slick";
 
 const NextArrow = (props) => {
@@ -43,7 +43,10 @@ function FlashCard({ productItems, addToCart }) {
               <div className="product mtop">
                 <div className="img">
                   <span className="discount">{item.discount}% Off</span>
-                  <img src={item.cover} alt="img" />
+                  <div className="product_img">
+                    <img src={item.cover} alt="img" />
+                  </div>
+
                   <div className="product-like">
                     <label>0</label>
                     <br />

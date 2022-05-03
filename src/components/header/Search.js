@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/images/logo.svg";
 function Search({ cartItem }) {
-  console.log("ccccc", cartItem);
   return (
     <section className="search">
       <div className="container c_flex">
